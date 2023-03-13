@@ -1,4 +1,4 @@
-package cn.jamison.netty.c1;
+package cn.jamison.netty.c2;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;

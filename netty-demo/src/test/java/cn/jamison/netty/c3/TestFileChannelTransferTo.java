@@ -1,4 +1,4 @@
-package cn.jamison.netty.c1;
+package cn.jamison.netty.c3;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

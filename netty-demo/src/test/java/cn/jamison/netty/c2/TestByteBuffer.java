@@ -1,4 +1,4 @@
-package cn.jamison.netty.c1;
+package cn.jamison.netty.c2;
 
 import lombok.extern.slf4j.Slf4j;
 

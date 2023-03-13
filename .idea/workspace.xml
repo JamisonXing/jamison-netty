@@ -4,10 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32133809-54c5-4ac8-b5d9-605041086d07" name="Changes" comment="initial">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="32133809-54c5-4ac8-b5d9-605041086d07" name="Changes" comment="阻塞Server">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-demo/src/test/java/cn/jamison/netty/c1/ByteBufferUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-demo/src/test/java/cn/jamison/netty/c2/ByteBufferUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-demo/src/test/java/cn/jamison/netty/c1/TestByteBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-demo/src/test/java/cn/jamison/netty/c2/TestByteBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-demo/src/test/java/cn/jamison/netty/c1/TestByteBufferExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-demo/src/test/java/cn/jamison/netty/c2/TestByteBufferExam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-demo/src/test/java/cn/jamison/netty/c1/TestByteBufferString.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-demo/src/test/java/cn/jamison/netty/c2/TestByteBufferString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-demo/src/test/java/cn/jamison/netty/c1/TestFileChannelTransferTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-demo/src/test/java/cn/jamison/netty/c3/TestFileChannelTransferTo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-demo/src/test/java/cn/jamison/netty/c1/TestFileCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-demo/src/test/java/cn/jamison/netty/c3/TestFileCopy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-demo/src/test/java/cn/jamison/netty/c1/TestFilesWalkFileTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-demo/src/test/java/cn/jamison/netty/c3/TestFilesWalkFileTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-demo/src/test/java/cn/jamison/netty/c1/TestGatheringWrites.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-demo/src/test/java/cn/jamison/netty/c2/TestGatheringWrites.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-demo/src/test/java/cn/jamison/netty/c1/TestScatterRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-demo/src/test/java/cn/jamison/netty/c2/TestScatterRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-demo/src/test/java/cn/jamison/netty/c4/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-demo/src/test/java/cn/jamison/netty/c4/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-demo/target/test-classes/cn/jamison/netty/c1/TestByteBuffer.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,13 +78,39 @@
       <recent name="$PROJECT_DIR$/netty-demo/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestByteBufferExam">
-    <configuration name="TestByteBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.jamison.netty.c1.TestByteBuffer" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.jamison.netty.c4.Client" />
       <module name="netty-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.jamison.netty.c1.*" />
+          <option name="PATTERN" value="cn.jamison.netty.c4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.jamison.netty.c4.Server" />
+      <module name="netty-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.jamison.netty.c4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestByteBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.jamison.netty.c2.TestByteBuffer" />
+      <module name="netty-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.jamison.netty.c3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,11 +119,11 @@
       </method>
     </configuration>
     <configuration name="TestByteBufferExam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.jamison.netty.c1.TestByteBufferExam" />
+      <option name="MAIN_CLASS_NAME" value="cn.jamison.netty.c2.TestByteBufferExam" />
       <module name="netty-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.jamison.netty.c1.*" />
+          <option name="PATTERN" value="cn.jamison.netty.c3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,38 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestByteBufferString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.jamison.netty.c1.TestByteBufferString" />
+    <configuration name="TestFileChannelTransferTo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.jamison.netty.c3.TestFileChannelTransferTo" />
       <module name="netty-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.jamison.netty.c1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestGatheringWrites" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.jamison.netty.c1.TestGatheringWrites" />
-      <module name="netty-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.jamison.netty.c1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestScatterRead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.jamison.netty.c1.TestScatterRead" />
-      <module name="netty-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.jamison.netty.c1.*" />
+          <option name="PATTERN" value="cn.jamison.netty.c3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,13 +161,20 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.TestByteBuffer" />
+      <item itemvalue="Application.TestByteBufferExam" />
+      <item itemvalue="Application.TestFileChannelTransferTo" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.TestFileChannelTransferTo" />
         <item itemvalue="Application.TestByteBufferExam" />
         <item itemvalue="Application.TestByteBuffer" />
-        <item itemvalue="Application.TestScatterRead" />
-        <item itemvalue="Application.TestGatheringWrites" />
-        <item itemvalue="Application.TestByteBufferString" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +190,7 @@
       <workItem from="1678418145258" duration="206000" />
       <workItem from="1678418371179" duration="4244000" />
       <workItem from="1678435404258" duration="3270000" />
-      <workItem from="1678688256048" duration="6545000" />
+      <workItem from="1678688256048" duration="17325000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1678418980170</created>
@@ -183,7 +199,56 @@
       <option name="project" value="LOCAL" />
       <updated>1678418980170</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ByteBuffer">
+      <created>1678695549748</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678695549748</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ByteBuffer">
+      <created>1678697304107</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678697304107</updated>
+    </task>
+    <task id="LOCAL-00004" summary="TestFileChannelTransferTo">
+      <created>1678698585483</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678698585483</updated>
+    </task>
+    <task id="LOCAL-00005" summary="TestFilesWalkFileTree">
+      <created>1678699048338</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678699048338</updated>
+    </task>
+    <task id="LOCAL-00006" summary="TestFilesWalkFileTree2">
+      <created>1678704098491</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678704098491</updated>
+    </task>
+    <task id="LOCAL-00007" summary="TestFileCopy">
+      <created>1678704717164</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678704717164</updated>
+    </task>
+    <task id="LOCAL-00008" summary="阻塞Server">
+      <created>1678707915803</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678707915803</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,9 +267,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+    <MESSAGE value="ByteBuffer" />
+    <MESSAGE value="TestFileChannelTransferTo" />
+    <MESSAGE value="TestFilesWalkFileTree" />
+    <MESSAGE value="TestFilesWalkFileTree2" />
+    <MESSAGE value="TestFileCopy" />
+    <MESSAGE value="阻塞Server" />
+    <option name="LAST_COMMIT_MESSAGE" value="阻塞Server" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.nio.BufferOverflowException" package="java.nio" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/netty-demo/src/test/java/cn/jamison/netty/c4/Client.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

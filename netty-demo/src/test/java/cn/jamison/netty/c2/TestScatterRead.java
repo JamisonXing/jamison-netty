@@ -1,11 +1,11 @@
-package cn.jamison.netty.c1;
+package cn.jamison.netty.c2;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 
-import static cn.jamison.netty.c1.ByteBufferUtil.debugAll;
+import static cn.jamison.netty.c2.ByteBufferUtil.debugAll;
 
 public class TestScatterRead {
     public static void main(String[] args) {
